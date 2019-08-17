@@ -11,7 +11,7 @@ contract DecentralizedArt {
 		balances[tx.origin] = 10000;
 	}
 
-	function sendFunds(address receiver, uint amount) public returns(bool sufficient) {
+	function sendFunds(address receiver, uint amount) public payable returns(bool sufficient) {
 		if (balances[msg.sender] < amount) return false;
 		balances[msg.sender] -= amount;
 		balances[receiver] += amount;
