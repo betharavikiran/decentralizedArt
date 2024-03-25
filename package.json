@@ -16,7 +16,7 @@
     "truffle-assertions": "^0.4.0",
     "truffle-bytecode-manager": "^1.1.1",
     "truffle-extract": "^1.2.1",
-    "web3-utils": "1.0.0-beta.33"
+    "web3-utils": "4.2.1"
   },
   "dependencies": {
     "bluebird": "^3.5.2",
